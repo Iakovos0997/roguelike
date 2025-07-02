@@ -39,3 +39,41 @@
 
 # debug information files
 *.dwo
+
+# Build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.o
+/*.obj
+/*.so
+/*.dll
+/*.dylib
+/*.exe
+
+# Compilation database
+/compile_commands.json
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+
+# Backup files
+*~
+*.swp
+*.swo
+*.bak
+
+# Test binaries
+/test_*
+
